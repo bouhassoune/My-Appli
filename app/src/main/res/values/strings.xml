@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">exo tp4</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="action_settings">action_settings</string>
+    <string name="titre_section0">printemps</string>
+    <string name="titre_section1">été</string>
+    <string name="titre_section2">automne</string>
+    <string name="titre_section3">hiver</string>
+</resources>

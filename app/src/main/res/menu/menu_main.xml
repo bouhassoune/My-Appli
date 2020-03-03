@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sc.gestiononglets.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/arrow_down_float"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_image"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:orderInCategory="100"
+        android:title="deconnexion"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_bar_title"
+        android:icon="@android:drawable/arrow_down_float"
+        android:orderInCategory="100"
+        android:title="title"
+        app:showAsAction="ifRoom" />
+
+
+
+
+</menu>
