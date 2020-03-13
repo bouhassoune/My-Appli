@@ -41,6 +41,8 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 return NatureFragment.newInstance(1, mContext.getString(R.string.titre_section1));
             case 2:
                 return NatureFragment.newInstance(2, mContext.getString(R.string.titre_section2));
+            case 3:
+                return NatureFragment.newInstance(3, mContext.getString(R.string.titre_section3));
         }
         return null;
     }

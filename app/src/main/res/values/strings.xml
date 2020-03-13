@@ -7,4 +7,8 @@
     <string name="titre_section1">été</string>
     <string name="titre_section2">automne</string>
     <string name="titre_section3">hiver</string>
+    <string name="titre_section4">Saisons</string>
+    <string name="action_settings2" />
+    <string name="action_settings3" />
+
 </resources>

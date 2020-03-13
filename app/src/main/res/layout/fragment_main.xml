@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.PlaceholderFragment">
+    tools:context=".ui.main.SectionsPagerAdapter">
 
     <TextView
         android:id="@+id/section_label"
@@ -20,14 +20,19 @@
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintTop_creator="1" />
 
-    <ImageView
-        android:id="@+id/imageView0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ete"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="308dp" />
 
+    <ImageView
+        android:id="@+id/saison"
+        android:layout_width="207dp"
+        android:layout_height="196dp"
+        android:background="#00BB1111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482"
+        app:srcCompat="@drawable/ic_launcher" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,18 +12,20 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_image"
-        android:icon="@android:drawable/ic_lock_power_off"
+        android:id="@+id/action_settings2"
         android:orderInCategory="100"
-        android:title="deconnexion"
-        app:showAsAction="ifRoom" />
+        android:title="@string/action_settings2"
+        app:showAsAction="ifRoom"
+        android:drawableLeft="@drawable/ic_action_settings"
+        />
 
     <item
-        android:id="@+id/action_bar_title"
-        android:icon="@android:drawable/arrow_down_float"
+        android:id="@+id/action_settings3"
         android:orderInCategory="100"
-        android:title="title"
-        app:showAsAction="ifRoom" />
+        android:title="@string/action_settings3"
+        app:showAsAction="ifRoom"
+        android:drawableLeft="@drawable/ic_action_settings"
+        />
 
 
 
